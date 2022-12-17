@@ -16,10 +16,6 @@ export const authSlice = createSlice({
             state.adm = action.payload.adm
             state.dept = action.payload.dept
         },
-        adminSignin: (state, action) => {
-            //   state.address = action.payload.address
-            state.address = action.payload.address
-        },
     },
 })
 

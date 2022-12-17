@@ -28,10 +28,6 @@ function signup() {
             try {
                 // Metamask avalable
                 const accounts = await window.ethereum.request({ method: "eth_requestAccounts" })
-                console.log(accounts[0])
-                console.log(adm)
-                console.log(dept)
-                console.log(name)
                 const state = {
                     address: accounts[0],
                     name: name,
