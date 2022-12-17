@@ -14,7 +14,8 @@
 
 # production
 /build
-
+/api
+/templatee
 # misc
 .DS_Store
 *.pem
